@@ -8,6 +8,14 @@ using Catch::Matchers::Equals;
 
 // Fix the following class
 class Complex {
+  private:
+  int coeff1;
+  int coeff2;
+  public:
+  Complex (int re==0, int im==0);
+  int re;
+  {return re;
+  };
     void operator>>(std::string&) const;
     void operator<<(const std::string&);
 };
